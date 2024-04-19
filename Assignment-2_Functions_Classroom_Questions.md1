@@ -33,3 +33,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ++++++++++++++++++++++++++=
+# Expected output: 
+# Enter the first number:  1
+# Enter the second number:  2
+# Enter the third number:  3
+# The average of the numbers is: 2.00
