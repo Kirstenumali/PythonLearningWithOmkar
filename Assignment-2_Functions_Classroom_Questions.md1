@@ -1,0 +1,35 @@
+# 1. wap(write a program) ask the user take three number
+# find the average implement using the function call
+
+def calculate_average(num1, num2, num3):
+    """
+    This function takes three numbers as input and returns their average.
+    
+    Parameters:
+    num1 (float): The first number.
+    num2 (float): The second number.
+    num3 (float): The third number.
+    
+    Returns:
+    float: The average of the three numbers.
+    """
+    return (num1 + num2 + num3) / 3
+
+def main():
+    # Ask the user to input three numbers
+    try:
+        number1 = float(input("Enter the first number: "))
+        number2 = float(input("Enter the second number: "))
+        number3 = float(input("Enter the third number: "))
+
+        # Calculate the average using the calculate_average function
+        average = calculate_average(number1, number2, number3)
+
+        # Print the average
+        print(f"The average of the numbers is: {average:.2f}")
+
+    except ValueError:
+        print("Please enter valid numbers.")
+
+if __name__ == "__main__":
+    main()
